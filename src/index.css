@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #fff;
+}
+
+.zelenyj-fon {
+  min-height: 100vh;
+  background: #183b27;
+  padding: 0 160px;
+}
+
+.shapka {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+
+.logo {
+  width: 150px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.knopki {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.ssylka-vhod,
+.ssylka-nomer {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.knopka-poehali {
+  background: #1d8f3a;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 17px 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.glavnoe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  min-height: 80vh;
+}
+
+.tekst {
+  max-width: 450px;
+}
+
+.zagolovok-bomba {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.podpis-melkij {
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.kartinka {
+  width: 700px;
+  height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.belyj-blok {
+  background: #fff;
+  padding: 80px 160px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.stroka {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.kartinka-zheltaya {
+  width: 420px;
+  height: 260px;
+  color: #183b27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tekst-pravo {
+  max-width: 300px;
+}
+
+.zagolovok-zelenyj {
+  color: #183b27;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 500;
+}
+
+.podpis-malenkij {
+  color: #183b27;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 6px;
+}
+
+.druzya-blok {
+  background: #fff;
+  padding: 40px 160px 80px;
+  text-align: center;
+}
+
+.zagolovok-po-centru {
+  text-align: center;
+}
+
+.druzya-ryad {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.druzhok {
+  width: 120px;
+  height: 50px;
+  color: #183b27;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.druzhok img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 900px) {
+  .zelenyj-fon {
+    padding: 0 20px;
+  }
+
+  .knopki {
+    gap: 16px;
+  }
+
+  .glavnoe {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .kartinka {
+    width: 100%;
+    height: 300px;
+  }
+
+  .zagolovok-bomba {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  .belyj-blok,
+  .druzya-blok {
+    padding: 40px 20px;
+  }
+
+  .stroka {
+    flex-direction: column;
+  }
+
+  .stroka-naoborot {
+    flex-direction: column-reverse;
+  }
+
+  .kartinka-zheltaya {
+    width: 100%;
+  }
+
+  .druzya-ryad {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+.logo img,
+.kartinka img,
+.kartinka-zheltaya img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.zelenyj-blok {
+  background: #183b27;
+  padding: 40px 160px 80px;
+}
+
+.zagolovok-belyj {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ikonki-ryad {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 40px;
+}
+
+.ikonka-blok {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ikonka {
+  width: 80px;
+  height: 80px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ikonka img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ikonka-tekst {
+  color: #fff;
+  font-size: 11px;
+  line-height: 13px;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .zelenyj-blok {
+    padding: 40px 20px;
+  }
+
+  .ikonki-ryad {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
