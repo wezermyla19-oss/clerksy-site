@@ -160,85 +160,27 @@ body {
   text-align: center;
 }
 
-.druzhok img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-@media (max-width: 900px) {
-  .zelenyj-fon {
-    padding: 0 20px;
-  }
-
-  .knopki {
-    gap: 16px;
-  }
-
-  .glavnoe {
-    flex-direction: column;
-    padding: 40px 0;
-  }
-
-  .kartinka {
-    width: 100%;
-    height: 300px;
-  }
-
-  .zagolovok-bomba {
-    font-size: 36px;
-    line-height: 52px;
-  }
-
-  .belyj-blok,
-  .druzya-blok {
-    padding: 40px 20px;
-  }
-
-  .stroka {
-    flex-direction: column;
-  }
-
-  .stroka-naoborot {
-    flex-direction: column-reverse;
-  }
-
-  .kartinka-zheltaya {
-    width: 100%;
-  }
-
-  .druzya-ryad {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-}
-.logo img,
-.kartinka img,
-.kartinka-zheltaya img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
 .zelenyj-blok {
   background: #183b27;
-  padding: 40px 160px 80px;
+  padding: 80px 0 100px;
 }
 
 .zagolovok-belyj {
   color: #fff;
-  font-size: 26px;
+  font-size: 56px;
   font-weight: 500;
   text-align: center;
 }
 
 .ikonki-ryad {
   display: flex;
-  justify-content: center;
-  gap: 120px;
-  margin-top: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 100px;
 }
 
 .ikonka-blok {
-  width: 140px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,8 +188,154 @@ body {
 }
 
 .ikonka {
+  width: 200px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ikonka-tekst {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.logo img,
+.kartinka img,
+.kartinka-zheltaya img,
+.druzhok img,
+.ikonka img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bezhevyj-blok {
+  background: #f2efe7;
+  padding: 100px 160px 120px;
+  text-align: center;
+}
+
+.zagolovok-razmery {
+  color: #183b27;
+  font-size: 56px;
+  line-height: 88px;
+  font-weight: 500;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.podpis-razmery {
+  color: #183b27;
+  font-size: 22px;
+  line-height: 34px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.lyudi-kartinka {
+  width: 100%;
+  max-width: 1500px;
+  height: 420px;
+  margin: 20px auto 0;
+  color: #183b27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lyudi-kartinka img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.belyj-scena {
+  background: #fff;
+  padding: 150px 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.scena-tekst {
+  max-width: 460px;
+}
+
+.scena-zagolovok {
+  color: #183b27;
+  font-size: 56px;
+  line-height: 90px;
+  font-weight: 500;
+}
+
+.scena-podpis {
+  color: #183b27;
+  font-size: 22px;
+  line-height: 34px;
+}
+ .scena-kartinka {
+  width: 620px;
+  height: 540px;
+  color: #183b27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.scena-kartinka img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.belyj-interes {
+  background: #fff;
+  padding: 100px 180px 120px;
+}
+
+.interes-zagolovok {
+  color: #183b27;
+  font-size: 56px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.interes-podpis {
+  color: #183b27;
+  font-size: 20px;
+  text-align: center;
+}
+
+.kartochki-ryad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.kartochka {
+  width: 375px;
+  height: 390px;
+  background: #faf9f5;
+  padding: 50px 45px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.12);
+}
+
+.kartochka-bolshaya {
+  width: 412px;
+  height: 430px;
+}
+
+.kartochka-ikonka {
   width: 80px;
   height: 80px;
+  color: #183b27;
   font-size: 10px;
   display: flex;
   align-items: center;
@@ -255,26 +343,221 @@ body {
   text-align: center;
 }
 
-.ikonka img {
+.kartochka-ikonka img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.ikonka-tekst {
-  color: #fff;
-  font-size: 11px;
-  line-height: 13px;
+.kartochka-zagolovok {
+  color: #183b27;
+  font-size: 28px;
+  font-weight: 500;
   margin-top: 8px;
 }
 
-@media (max-width: 900px) {
-  .zelenyj-blok {
-    padding: 40px 20px;
-  }
+.kartochka-spisok {
+  list-style: none;
+  margin-top: 20px;
+}
 
-  .ikonki-ryad {
-    flex-wrap: wrap;
-    gap: 40px;
-  }
+.kartochka-spisok li {
+  color: #183b27;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+.bezhevyj-shagi {
+  background: #f2efe7;
+  padding: 120px 160px 140px;
+}
+
+.shagi-zagolovok {
+  color: #183b27;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.shagi-podpis {
+  color: #183b27;
+  font-size: 18px;
+  text-align: center;
+}
+
+.shagi-ryad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.shag {
+  width: 260px;
+  position: relative;
+  text-align: center;
+}
+
+.shag-tekst {
+  color: #183b27;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.shag-vremya {
+  color: #183b27;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.strelka {
+  width: 80px;
+  height: 50px;
+  color: #183b27;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.obvodka {
+  width: 250px;
+  height: 160px;
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  color: #183b27;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+.strelka img,
+.obvodka img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.belyj-kniga {
+  background: #fff;
+  padding: 120px 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.kniga-tekst {
+  max-width: 660px;
+}
+
+.kniga-zagolovok {
+  color: #000;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.kniga-podpis {
+  color: #000;
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+.kniga-knopka {
+  background: #1d8f3a;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 17px 25px;
+  font-size: 16px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.kniga-kartinka {
+  width: 490px;
+  height: 490px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.kniga-kartinka img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.zelenyj-start {
+  background: #183b27;
+  height: 413px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.start-tekst {
+  text-align: center;
+}
+
+.start-zagolovok {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.start-podpis {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.start-knopka {
+  background: #fbb4a0;
+  color: #183b27;
+  border: none;
+  border-radius: 30px;
+  padding: 18px 25px;
+  font-size: 16px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.listja-levo,
+.listja-pravo {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.listja-levo {
+  left: 0;
+}
+
+.listja-pravo {
+  right: 0;
+}
+
+.listja-levo img,
+.listja-pravo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
